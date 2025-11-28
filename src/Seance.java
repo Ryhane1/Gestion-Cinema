@@ -34,6 +34,9 @@ public class Seance {
     public void setCapacite_Max(int capacite_Max) { this.Capacite_Max = capacite_Max; }
     public void setSpectateursInscrits(int spectateursInscrits) { this.spectateursInscrits = spectateursInscrits; }
 
+    public void afficherSeance() {
+        System.out.println("Nouvelle séance ajoutée !");
+    }
     @Override
     public String toString() {
         return "Seance{" +
