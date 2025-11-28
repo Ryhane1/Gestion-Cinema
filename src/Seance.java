@@ -35,7 +35,15 @@ public class Seance {
     public void setSpectateursInscrits(int spectateursInscrits) { this.spectateursInscrits = spectateursInscrits; }
 
     public void afficherSeance() {
-        System.out.println("Nouvelle séance ajoutée !");
+        System.out.println("Nouvelle ajouter ");
+    }
+    public void supprimerSeance(int index) {
+        if (index >= 0 && index < seances.size()) {
+            String seanceSupprimee = seances.remove(index);
+            System.out.println("Séance supprimée : " + seanceSupprimee);
+        } else {
+            System.out.println("Index invalide, impossible de supprimer.");
+        }
     }
     @Override
     public String toString() {
