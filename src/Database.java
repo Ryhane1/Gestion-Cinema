@@ -6,7 +6,7 @@ public class Database {
 
     private static final String URL = "jdbc:mysql://localhost:3307/cinema";
     private static final String USER = "root";       
-    private static final String PASSWORD = "uxui2025";        
+    private static final String PASSWORD = "";        
 
     static {
         try {
