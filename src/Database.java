@@ -7,7 +7,7 @@ public class Database {
     // URL de connexion MySQL (à adapter si nécessaire)
     private static final String URL = "jdbc:mysql://localhost:3307/cinema";
     private static final String USER = "root";        // ton nom d'utilisateur MySQL
-    private static final String PASSWORD = "uxui2025";        // ton mot de passe MySQL
+    private static final String PASSWORD = "";        // ton mot de passe MySQL
 
     // Charger le driver (facultatif avec les versions récentes de JDBC)
     static {
