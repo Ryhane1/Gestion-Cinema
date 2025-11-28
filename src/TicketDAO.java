@@ -3,7 +3,6 @@ import java.util.ArrayList;
 
 public class TicketDAO {
 
-    // Ajouter un ticket
     public void addTicket(Ticket t) throws Exception {
         Connection conn = Database.getConnect();
         String sql = "INSERT INTO Ticket VALUES ( ?, ?, ?, ?)";
@@ -19,7 +18,6 @@ public class TicketDAO {
     }
     
 
-    // Modifier un ticket
     public void updateTicket(Ticket t) throws Exception {
         Connection conn = Database.getConnect();
         String sql = "UPDATE Ticket SET Seance_ID=?, Spectateur_ID=?, Prix=? WHERE Ticket_ID=?";
@@ -34,7 +32,6 @@ public class TicketDAO {
         conn.close();
     }
 
-    // Supprimer un ticket
     public void deleteTicket(int id) throws Exception {
         Connection conn = Database.getConnect();
         String sql = "DELETE FROM Ticket WHERE Ticket_ID=?";
@@ -46,7 +43,6 @@ public class TicketDAO {
         conn.close();
     }
 
-    // Afficher tous les tickets
     public ArrayList<Ticket> getAllTickets() throws Exception {
         Connection conn = Database.getConnect();
         String sql = "SELECT * FROM Ticket";
