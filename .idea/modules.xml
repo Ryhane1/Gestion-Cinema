@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/miniprojetcenema.iml" filepath="$PROJECT_DIR$/miniprojetcenema.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Gestion Cenima.iml" filepath="$PROJECT_DIR$/Gestion Cenima.iml" />
+>>>>>>> 3b262bb963398c7da6b241e7b252279173935a55
     </modules>
   </component>
 </project>
